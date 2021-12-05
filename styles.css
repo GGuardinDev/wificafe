@@ -1,0 +1,22 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 785px){
+
+#title
+{
+    font-family: "Orelega One", sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+#header-zone
+{
+    background-color: #362323;
+    height: 100px;
+}
+
+}
