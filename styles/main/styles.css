@@ -8,9 +8,14 @@
 
 #title
 {
-    font-family: "Orelega One", sans-serif;
+    margin: 0 auto;
+    width: 70%;
+    left: 0;
+    right: 0;
+    font-family: "Pacifico";
     font-size: 40px;
     color: white;
+    padding-top: 10px;
 }
 
 #header-zone
