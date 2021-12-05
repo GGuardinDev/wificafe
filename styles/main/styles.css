@@ -8,20 +8,39 @@
 
 #title
 {
-    margin: 0 auto;
-    width: 70%;
-    left: 0;
-    right: 0;
-    font-family: "Pacifico";
-    font-size: 40px;
+    display: flex;
+    width: 180px;
+    font-family: "Helvetica";
+    font-size: 35px;
     color: white;
-    padding-top: 10px;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+#Logo
+{
+    display: flex;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+#Menu
+{
+    height: 50px;
+    display: flex;
+    margin-top: 12px;
+    margin-left: 8px;
+    width: 50px;
 }
 
 #header-zone
 {
+    display: flex;
     background-color: #362323;
-    height: 100px;
+    height: 80px;
+    justify-content: space-between;
 }
 
 }
