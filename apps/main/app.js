@@ -58,7 +58,7 @@ class dropDownProduct{
     dropUp(){
 
         this.linkImg.src = "img/down.svg";
-        this.linkProducts.style = "transition: ease-in; transition-property: display; transition-duration: 2s; display: hidden;"
+        this.linkProducts.style = "transition: ease-in; transition-property: display; transition-duration: 2s; display: none;"
         this.state = 0;
 
     }
@@ -68,6 +68,7 @@ class dropDownProduct{
 let Menu = new menu();
 let DropDownFrappes = new dropDownProduct(document.getElementById("frappes"), document.getElementById("down"), document.getElementById("frappe-zone"));
 let DropDownIceCreams = new dropDownProduct(document.getElementById("icecream"), document.getElementById("icecream-down"), document.getElementById("icecream-zone"))
+let DropDownWifi = new dropDownProduct(document.getElementById("wifi"), document.getElementById("wifi-down"), document.getElementById("wifi-zone"));
 
 document.getElementById("Menu").addEventListener("click", () => {
 
@@ -96,6 +97,12 @@ document.getElementById("frappes").addEventListener("click", () => {
 document.getElementById("icecream").addEventListener("click", () => {
 
     DropDownIceCreams.Manager();
+
+});
+
+document.getElementById("wifi").addEventListener("click", () => {
+
+    DropDownWifi.Manager();
 
 });
 
