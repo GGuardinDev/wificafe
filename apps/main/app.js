@@ -24,8 +24,9 @@ class menu{
 
 class dropDownProduct{
 
-    constructor(linkImg, linkProducts, state){
+    constructor(linkZone, linkImg, linkProducts, state){
 
+        this.linkZone = linkZone;
         this.linkImg = linkImg;
         this.linkProducts = linkProducts;
         this.state = 0;
@@ -64,30 +65,9 @@ class dropDownProduct{
 
 }
 
-class productLink{
-
-    constructor(link){
-
-        this.link = link;
-
-    }
-
-}
-
-class product extends productLink{
-
-    constructor(link, name, value){
-
-        super(link);
-        this.name = name;
-        this.value = value;
-
-    }
-
-}
-
 let Menu = new menu();
-let DropDownFrappes = new dropDownProduct(document.getElementById("down"), document.getElementById("frappe-zone"));
+let DropDownFrappes = new dropDownProduct(document.getElementById("frappes"), document.getElementById("down"), document.getElementById("frappe-zone"));
+let DropDownIceCreams = new dropDownProduct(document.getElementById("icecream"), document.getElementById("icecream-down"), document.getElementById("icecream-zone"))
 
 document.getElementById("Menu").addEventListener("click", () => {
 
@@ -107,9 +87,15 @@ document.addEventListener("scroll", () => {
 
 });
 
-document.getElementById("down").addEventListener("click", () => {
+document.getElementById("frappes").addEventListener("click", () => {
 
     DropDownFrappes.Manager();
+
+});
+
+document.getElementById("icecream").addEventListener("click", () => {
+
+    DropDownIceCreams.Manager();
 
 });
 

@@ -17,6 +17,12 @@ body
 
 @media screen and (max-width: 767px){
 
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
 #title
 {
     display: none;
@@ -117,8 +123,8 @@ body
     list-style: none;
     color: white;
     font-weight: bolder;
-    margin-top: 40px;
-    font-size: 20px;
+    margin-top: 60px;
+    font-size: 30px;
 }
 
 #section
@@ -173,7 +179,7 @@ body
     font-size: 30px;
 }
 
-#frappes
+.dropdownbutton
 {
     margin: 0 auto;
     left: 0;
@@ -192,7 +198,18 @@ body
     display: inline;
 }
 
+#h2-icecream
+{
+    display: inline;
+}
+
 #down
+{
+    display: inline;
+    height: 30px;
+}
+
+.dropdown
 {
     display: inline;
     height: 30px;
@@ -230,6 +247,27 @@ body
 #frappe-zone
 {
     display: none;
+}
+
+#icecream-zone
+{
+    display: none;
+}
+
+#oreo-prod
+{
+    margin-left: 45vw;
+    margin-top: -85px;
+}
+
+#oreo-pri
+{
+    margin-left: 45vw;
+}
+
+#oreo-pri1
+{
+    margin-left: 45vw;
 }
 
 }
