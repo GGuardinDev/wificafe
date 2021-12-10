@@ -400,3 +400,89 @@ a
 }
 
 }
+
+@media screen and (min-width: 768px){
+
+#header
+{
+    justify-content: space-between;
+}
+
+#header-zone
+{
+    background-color: #362323;
+    font-family: "Courgette";
+    justify-content: space-between;
+    display: flex;
+}
+
+#top-area
+{
+    display: flex;
+    width: 100vw;
+    height: 70px;
+    justify-content: space-between;
+}
+
+#Logo
+{
+    height: 65px;
+    display: inline;
+}
+
+#logo-zone
+{
+    display: inline;
+}
+
+#title
+{
+    display: none;
+}
+
+#nav-zone
+{
+    display: inline;
+}
+
+#nav-zone #nav-header-zone
+{
+    display: inline;
+}
+
+nav
+{
+    display: inline;
+}
+
+li
+{
+    display: inline;
+}
+
+a
+{
+    display: inline;
+}
+
+h1
+{
+    display: inline;
+}
+
+#Menu
+{
+    display: none;
+}
+
+#Nav-logo
+{
+    display: none;
+}
+
+#close
+{
+    display: none;
+}
+
+}
