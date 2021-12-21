@@ -529,8 +529,10 @@ h1
 
 #top-part
 {
-    display: inline;
+    display: inline-block;
+    height: 30vw;
     width: 100vw;
+    background-color: #BB8760;
 }
 
 #close
@@ -547,40 +549,133 @@ h1
 
 #bg
 {
+    width: 50vw;
     display: inline-block;
-    height: 40vh;
-    width: 45vw;
-    background-color: #BB8760;
+    text-align: center;
+    position: relative;
+    height: 50%;
+    top: -20%;
+    right: -5vw;
+
 }
 
 #U
 {
     display: inline;
+    font-size: 11vw;
+    font-family: "Petemoss";
+    font-weight: bold;
+    white-space: none;
+    word-spacing: 0;
 }
 
 #phrase
 {
     display: inline;
+    font-size: 4vw;
+    font-family: "Courgette";
 }
 
 #phrase-div
 {
     display: inline-block;
+    margin-top: -10vw;
 }
 
 #phrase-one
 {
     display: inline;
+    color: white;
+    text-align: center;
+    white-space: 0;
 }
 
 #bgi
 {
     display: inline-block;
-    height: 350px;
-    width: 350px;
-    float: right;
+    height: 25vw;
+    width: 25vw;
     border-style: solid;
     border-radius: 180px;
+    border-width: 0px;
+    position: relative;
+    right: -19vw;
+    top: 2vw;
+}
+
+.h1-product
+{
+    font-family: "Courgette";
+    color: #362323;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 50px;
+    width: 100vw;
+    display: block;
+    font-size: 40px;
+}
+
+#h2-frappes
+{
+    display: block;
+    margin-top: 70px;
+    text-align: center;
+    width: 100vw;
+    font-size: 35px;
+    color: #362323;
+    margin-bottom: 50px;
+}
+
+#down
+{
+    display: none;
+}
+
+#frappuccino
+{
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.product
+{
+    display: flex;
+    font-size: 35px;
+    color: #362323;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    font-family: "Courgette";
+}
+
+#frappuccino-prod
+{
+    margin-left: 60px;
+}
+
+#frappuccino-pri
+{
+    position: relative;
+    bottom: -30px;
+    left: -190px;
+}
+
+#frappe-zone
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-img
+{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 150px;
+    margin-left: 5vw;
+    border-color: #362323;
 }
 
 }
