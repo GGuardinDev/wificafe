@@ -65,6 +65,8 @@ class dropDownProduct{
 
 }
 
+if (window.innerWidth <= 768){
+
 let Menu = new menu();
 let DropDownFrappes = new dropDownProduct(document.getElementById("frappes"), document.getElementById("down"), document.getElementById("frappe-zone"));
 let DropDownIceCreams = new dropDownProduct(document.getElementById("icecream"), document.getElementById("icecream-down"), document.getElementById("icecream-zone"))
@@ -105,5 +107,7 @@ document.getElementById("wifi").addEventListener("click", () => {
     DropDownWifi.Manager();
 
 });
+
+}
 
 console.log("snapshot03");
